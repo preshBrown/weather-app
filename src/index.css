@@ -36,7 +36,7 @@
   max-width:800px ;
   margin: auto;
   /* height: 100%; */
-  height: auto;
+  height: 100vh;
   
   display: flex;
   align-items: center;
