@@ -54,7 +54,6 @@
   }
 
   .section__inputs, .section__temperature {
-    margin-bottom: 10px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -125,6 +124,10 @@
     .section__inputs>button {
     padding: 8px 30px;
     margin-top: 5px;
+  }
+
+  .section__temperature {
+    margin-top: 10px;
   }
 }
 /* .card {
