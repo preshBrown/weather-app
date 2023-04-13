@@ -113,8 +113,6 @@ const clearError = () => {
          if(!loading && weather) {
           weatherOutput = (
             <div style={{
-            justifyContent: 'center', 
-            alignItems: 'center', 
             height: '100vh'}}>
             <div className="section section__temperature">
             <div className="icon">
