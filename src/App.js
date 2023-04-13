@@ -112,7 +112,7 @@ const clearError = () => {
          let weatherOutput = <Spinner />
          if(!loading && weather) {
           weatherOutput = (
-            <div>
+            <>
             <div className="section section__temperature">
             <div className="icon">
               <h3>{`${weather.name}, ${weather.country}`}</h3>
@@ -129,7 +129,7 @@ const clearError = () => {
           <Descriptions 
             weather={weather}
             units={units}/>
-            </div>
+            </>
           )}
 
           if(!loading && !weather ) {
