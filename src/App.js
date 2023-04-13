@@ -148,7 +148,7 @@ const clearError = () => {
         <ErrorModal onClose={clearError}>{err}</ErrorModal>
       )}
         
-            <div className="container">
+            <div className="container" >
         <div className="section section__inputs">
           <input onKeyDown={enterkeyPressed} type="text" name="city" placeholder="Enter City Name.." 
            />
