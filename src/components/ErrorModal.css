@@ -52,7 +52,7 @@
 
   @media screen and (max-width: 800px) {
     .error-modal {
-        width: 24rem;
-        left: calc(50% - 12rem);
+        width: 22rem;
+        left: calc(50% - 11rem);
     }
 }
