@@ -21,16 +21,16 @@
 
 .app {
   width: 100%;
-  height: 100vh;
-  /* height: auto; */
+  /* height: 100vh; */
+  height: 100%;
   background-position: center;
   background-size: cover;
 } 
 
 .overlay {
   width: 100%;
-  height: 100vh;
-  /* height: auto; */
+  /* height: 100vh; */
+  height: 100%;
   background-color: var(--background-overlay);
 }
 
@@ -132,9 +132,9 @@
     margin-top: 10px;
   }
 
-  .app {
+  /* .app {
     height: auto;
-  }
+  } */
 }
 /* .card {
   display: flex;
