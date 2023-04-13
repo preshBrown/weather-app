@@ -21,16 +21,16 @@
 
 .app {
   width: 100%;
-  /* height: 100vh; */
-  height: auto;
+  height: 100vh;
+  /* height: auto; */
   background-position: center;
   background-size: cover;
 } 
 
 .overlay {
   width: 100%;
-  /* height: 100vh; */
-  height: auto;
+  height: 100vh;
+  /* height: auto; */
   background-color: var(--background-overlay);
 }
 
@@ -130,6 +130,10 @@
 
   .section__temperature {
     margin-top: 10px;
+  }
+
+  .app, .overlay {
+    height: auto;
   }
 }
 /* .card {
