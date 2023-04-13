@@ -112,7 +112,7 @@ const clearError = () => {
          let weatherOutput = <Spinner />
          if(!loading && weather) {
           weatherOutput = (
-            <div style={{display: 'flex', 
+            <div style={{
             justifyContent: 'center', 
             alignItems: 'center', 
             height: '100vh'}}>
