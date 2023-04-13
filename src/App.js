@@ -113,7 +113,7 @@ const clearError = () => {
          if(!loading && weather) {
           weatherOutput = (
             <div style={{
-            height: '100vh'}}>
+            height: 'auto'}}>
             <div className="section section__temperature">
             <div className="icon">
               <h3>{`${weather.name}, ${weather.country}`}</h3>
