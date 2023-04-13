@@ -112,8 +112,7 @@ const clearError = () => {
          let weatherOutput = <Spinner />
          if(!loading && weather) {
           weatherOutput = (
-            <div style={{
-            height: 'auto'}}>
+            <div>
             <div className="section section__temperature">
             <div className="icon">
               <h3>{`${weather.name}, ${weather.country}`}</h3>
